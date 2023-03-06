@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#maindiv {
+    background-color: rgb(233, 240, 170);
+    margin: 0 50px;
+}
+
+#Header1 {
+    background-color: lightgrey;
+    height: 20px;
+}
+
+#Header2 {
+    background-color: white;
+    height: 100px;
+
+}
+
+#Header2 span {
+    float: right;
+    margin: 24px;
+    margin-right: 4px;
+}
+
+#Menu {
+    background-color: rgb(238, 148, 193);
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.nav_a{
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    color: black;
+    margin: 70px;
+    font-size: 28px;
+
+}
+.nav_a:hover {
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+.Header3_p{
+    color: white;
+    font-size: 80px;
+    line-height: 0.5;
+    margin-left: 20px;
+    padding-top: 125px; 
+    margin-top: 0px; 
+}
+.Header3_span{
+    color:rgb(34, 1, 34);
+    font-size: 35px;
+    margin-left: 20px;
+}
+
+
+#Header3 {
+    background-color: darkviolet;
+    height: 350px;
+    background-image: url("Images/b_header.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 350px;
+
+
+}
+
+#Content {
+    height: 450px;
+}
+
+#Content1 {
+    float: left;
+    background-color: white;
+    width: 30%;
+    height: 450px;
+
+
+}
+
+#Content2 {
+    float: right;
+    background-color: white;
+    width: 70%;
+    height: 450px;
+}
+
+#contentA {
+    float: left;
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    margin-left: 40px;
+    margin-right: 75px;
+}
+
+#contentB {
+    float: left;
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    margin-right: 75px;
+}
+
+#contentC {
+    float: right;
+    background-color: white;
+    height: 250px;
+    width: 250px;
+    margin-right: 40px;
+}
+
+#Footer {
+    height: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 2px;
+    line-height: 0.9;
+
+}
+
+#Footer a {
+    margin: 25px;
+    text-decoration: none;
+    color: black;
+}
+#Footer a:hover {
+    text-transform: uppercase;
+    color: rgb(180, 36, 180);
+}
